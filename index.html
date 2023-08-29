@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NameCard Generator</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <div class="card">
+      <label for="name" style="color: white;">Enter Name:</label>
+      <input type="text" id="name" placeholder="Enter Name"/>
+      <a id="downloadCard">Show Preview</a>
+      <div id="downloadImage" href="">Download Image</div>
+    </div>
+    <p>Made By: <span>@Manas Tiwari<span></p>
+    <p style="font-size: 40px;"> Image Preview </p>
+      <div class="flex">
+        <img src="./images/invitation.png" id="imageCard"/>
+        <canvas id="canvas" width="700" height="700"></canvas>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.0/axios.min.js" integrity="sha512-aoTNnqZcT8B4AmeCFmiSnDlc4Nj/KPaZyB5G7JnOnUEkdNpCZs1LCankiYi01sLTyWy+m2P+W4XM+BuQ3Q4/Dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="src/index.js"></script>
+  </body>
+</html>
