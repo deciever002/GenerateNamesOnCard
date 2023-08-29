@@ -4,6 +4,11 @@
 
 Welcome to the documentation for the Name Card Generator project. This project allows users to create customized name cards with names displayed over images. It's built using HTML, CSS, and JavaScript, and leverages the concept of context to overlay names on images.
 
+To see the Name Card Generator in action, you can visit our [Live demo](https://deciever002.github.io/GenerateNamesOnCard/).
+
+<img width="1437" alt="image" src="https://github.com/deciever002/GenerateNamesOnCard/assets/112121338/6464319d-60dd-4cc3-8cd3-2166b92476ee">
+
+
 ## Table of Contents
 
 - [Installation](#installation)
